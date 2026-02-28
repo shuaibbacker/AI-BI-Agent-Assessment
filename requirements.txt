@@ -1,0 +1,33 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# OpenAI (optional fallback)
+openai>=1.6.0
+
+# Groq API
+groq>=0.9.0
+
+# Gemini (optional fallback)
+google-generativeai>=0.8.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.26.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0
+
+# Frontend
+streamlit>=1.28.0
+requests>=2.31.0
+
+# CORS
+python-multipart>=0.0.6
+
+# Type hints
+typing-extensions>=4.8.0
+
+# HTTP client
+httpx>=0.25.0
